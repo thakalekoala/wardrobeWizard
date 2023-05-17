@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>wardrobewizard</title>
+	
+	<style>
+		body{
+	background-color: #121212;
+	background-image: url('imgB.jpg');  
+}
+
+
+#box1{
+	color: white;
+}
+nav{
+	box-shadow: 15px 10px #280e21;
+	display: flex;
+	justify-content: space-between;
+	overflow: auto;
+	color: white;
+	font-size: 18px;
+	background-image: linear-gradient(to bottom right,transparent,grey);
+	align-items: center;
+	border-radius: 7px;
+}
+ul li{
+	position: relative;
+	margin: 0 20px;
+	list-style: none;
+	display: inline-block;
+	padding: 14px;
+
+}
+ul li a:hover{
+	color: black;
+	text-decoration: underline;
+}
+ul li a{
+	color: white;
+	text-decoration: none;
+}
+footer {
+  background-color: #f8f8f8;
+  padding: 50px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo img {
+  max-width: 150px;
+}
+
+.footer-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.footer-nav li {
+  margin: 0 20px;
+}
+
+.footer-nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 20px;
+  color: #333;
+}
+
+.newsletter{
+  padding: 4px;
+}
+.newsletter input[type="email"] {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 250px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.copy {
+  margin-top: 20px;
+}
+
+.contact-info {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+	</style>
+</head>
+<body>
+	<nav>
+		
+		 <img src="logo.png" style="height: auto; width: 10%">
+		 <ul>  
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="service.html">Services</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<div id="box2"></div>
+	<div id="box3"></div>
+	<div id="box4"></div>
+	<div id="box5"></div>
+	<div id="box6"></div>
+
+<footer>
+  <div class="footer-container">
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+    </div>
+      <div class="copy">
+        &copy; 2023 Clothing Store. All Rights Reserved.
+        </div>
+    <div class="contact-info">
+      Wardrobe Wizard<br>
+      P.O BOX 123<br>
+      Maseru 100<br>
+      Phone: +266 56789034 / +266 63457860<br>
+      Email: wardrobewizard@gamail.com
+    </div>
+
+    <div class="social-icons">
+      <img src="images.png" style="width:30px; height: auto;">
+      <img src="imgD.jpg" style="width:30px; height: auto;">
+      <img src="imgE.png" style="width:30px; height: auto;">
+      <img src="imgF.png" style="width:30px; height: auto;">
+    </div>
+    <div class="newsletter">
+      <form>
+        <input type="email" placeholder="Enter your email address">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
