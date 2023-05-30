@@ -3,46 +3,49 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>wardrobewizard</title>
-	
+	<title>marematlou</title>
 	<style>
-		body{
-	background-color: #121212;
-	background-image: url('imgB.jpg');  
+    body{
+  background-color: transparent; 
+}
+#box3{
+  border: solid black 2px;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 4px 4px 4px black;
 }
 
-
-#box1{
-	color: white;
-}
 nav{
-	box-shadow: 15px 10px #280e21;
-	display: flex;
-	justify-content: space-between;
-	overflow: auto;
-	color: white;
-	font-size: 18px;
-	background-image: linear-gradient(to bottom right,transparent,grey);
-	align-items: center;
-	border-radius: 7px;
+  box-shadow: 15px 10px #280e21;
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+  color: white;
+  font-size: 18px;
+  background-image: linear-gradient(to bottom right,transparent,grey);
+  align-items: center;
+  border-radius: 7px;
 }
 ul li{
-	position: relative;
-	margin: 0 20px;
-	list-style: none;
-	display: inline-block;
-	padding: 14px;
+  position: relative;
+  margin: 0 20px;
+  list-style: none;
+  display: inline-block;
+  padding: 14px;
 
 }
+
 ul li a:hover{
-	color: black;
-	text-decoration: underline;
+  cursor: pointer;
+  color: red;
+  text-decoration: underline;
 }
 ul li a{
-	color: white;
-	text-decoration: none;
+  float: right;
+  color: white;
+  text-decoration: none;
 }
-footer {
+  footer {
   background-color: #f8f8f8;
   padding: 50px;
   text-align: center;
@@ -111,25 +114,67 @@ footer {
   line-height: 1.5;
 }
 
-	</style>
+  </style>
 </head>
-<body>
-	<nav style="position: fixed;">
-		
-		 <img src="logo.png" style="height: auto; width: 10%">
-		 <ul>  
-			<li><a href="index.html">Home</a></li>
-			<li><a href="about.html">About Us</a></li>
-			<li><a href="service.html">Services</a></li>
-			<li><a href="blog.html">Blog</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-	</nav>
-	<div id="box2"></div>
-	<div id="box3"></div>
-	<div id="box4"></div>
-	<div id="box5"></div>
-	<div id="box6"></div>
+<center>
+	<body>
+
+	
+	<div id="main" style="height: 70vh; 
+	background-image: url('20.jpg');
+	background-size: 100vh;
+	width: 100%;">
+			<div id="box1" style="position: fixed;">
+						<nav>
+							<img src="logo.png" style="height: auto; width: 10%">
+				 				<ul><b>  
+									<li><a href="index.html">Home</a></li>
+									<li><a href="about.html">About Us</a></li>
+									<li><a href="service.html">Services</a></li>
+									<li><a href="blog.html">Blog</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</b>
+								</ul>
+						</nav>
+					</div>
+					<div>
+				
+						<div id="3" style="border: solid transparent 70px; color: red; font-size: 60px;">
+							<h1>Contact US..</h1>
+						</div>
+					</div>
+	</div>
+			<div id="box3" style="width:90%; font-size:20px">
+				<h1><u><i>Find Us On...</i></u></h1>  
+                
+                <div class="c"><b>
+                    <p>Phone number: +266 56789034 / +266 63457860</p>
+                    <p>Email address: wardrobewizard@gmail.com</p>
+                    <p>Physical address: Pioneer Mall, P.O.Box 123</p>
+                </b>                  
+                </div>
+
+                <div class="s">
+                    <h1><u><i>Social Media Section:</i></u></h1>
+
+                    <div class="f">
+                        <img src="fb.png" alt="" width="auto" height="70">
+                        <p>wardrobe wizard</p>
+                    </div>
+                    <div class="t">
+                        <a href="https://www.facebook.com/107949292305864/posts/pfbid0L3VS2fnggc83mfeEDbKpxQQ1QZ2a6nncV6H6vm1nUqTuxeyrz6XPJ3qDTHI/?app=fbl"><img src="images.png"  alt="" width="auto" height="70"></a>
+                        <P>wardrobe wizard</P>
+                    </div>
+                    <div class="i">
+                        <a href="https://www.instagram.com/invites/contact/?i=1tlc4ze3smff5&utm_content=re39jt5"><img src="imgD.jpg" alt="" width="auto" height="70"></a>
+                        <p>wardrobe wizard</p>
+                    </div>
+                </div>
+    
+			</div>
+		</div>
+        <br>
+        <br>
 
 <footer>
   <div class="footer-container">
@@ -162,4 +207,5 @@ footer {
   </div>
 </footer>
 </body>
+</center>
 </html>
